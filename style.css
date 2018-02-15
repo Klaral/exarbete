@@ -1,23 +1,5 @@
 /*******************************************************************************/
-/******************** sid.1 LOGGA IN *******************************************/
-/*******************************************************************************/
-/***************************** inlog index.html ******************/
-    
-.btnactionhide {
-    display: none;
-}
-
-
-/*******************************************************************************/
-/******************** sid.2 VÄLJ TVÄTTRUM **************************************/
-/*******************************************************************************/
-
-
-
-
-
-/*******************************************************************************/
-/******************** sid.3 BOKA TVÄTTID ***************************************/
+/************************** BOKA TVÄTTID ***************************************/
 /*******************************************************************************/
 /******************** Flexbox o @media för responsiviteten *************/
 .container {
@@ -30,7 +12,6 @@
     height: 0px;
     margin: 0px auto 0px auto;
     /*height: 3350px;*/ /* För att få en längre scrollyta */
-    /*background-color: aliceblue;*/
     /*border: 2px solid black;*/
 }
 
@@ -50,23 +31,7 @@ header {
     width: 960px;
     height: 80px;
     margin: 0px auto 0px auto;
-    
-    /*background-image: url("bubbor1.jpg");*/
 }
-
-
-/*** media quire till h1 ist för flexbox ***/
-/*h1 {
-    color: #DADADC;
-    font-family:  'Bowlby One SC';
-    font-size: 1.3rem;
-}*/
-
-/*@media screen and (min-width: 460px) {
-    .h1 {
-        font-size: 30px;
-    }
-}*/
 
 .box {
     width: 80px;
@@ -126,36 +91,9 @@ th, td{
 td {
     border: 1px solid #000000;
 }
-
-
-
-/******************** Annan vecka *******************/
-
-/*.vecka{
-    border: 2px solid yellow;
-}
-
-.veckabtn {
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.1rem;
-    font-family: 'Allerta';
-}
-
-@media screen and (min-width: 460px) {
-    .veckabtn {
-        font-size: 10px;
-}
-    
-#veckatext {
-    font-family: 'Allerta';
-    font-size: 12px;
-    display: inline-block;
-        
-    }   */ 
     
 
-/***************************************************************************************************/
+/**********************************************************/
 
 
 .tid {

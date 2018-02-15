@@ -1,8 +1,3 @@
-/******************  Byta vecka  ************************/
-
-
-
-
 /******************* toggle + swap från cell 1-4 (ej 0-4, var i = 1) ******************/
 
 function toggleswappa1(el) {
@@ -17,9 +12,11 @@ function toggleswappa1(el) {
         kids[i].className = "out";
     }
         el.className = "out";
+        
     }
      
  }
+
 
 function toggleswappa2(el) {
     var kids = document.getElementById('toggle2').children;
@@ -118,31 +115,6 @@ function toggleswappa7(el) {
  }
 
 
-
-/******************  Byta vecka  ************************/
-
-var divs = ["Menu1", "Menu2"];
-    var visibleDivId = null;
-    function toggleVisibility(tbodyId) {
-      if(visibleDivId === tbodyId) {
-        //visibleDivId = null;
-      } else {
-        visibleDivId = tbodyId;
-      }
-      hideNonVisibleDivs();
-    }
-    function hideNonVisibleDivs() {
-      var i, tbodyId, tr;
-      for(i = 0; i < divs.length; i++) {
-        tbodyId = divs[i];
-        tr = document.getElementById(tbodyId);
-        if(visibleDivId === tbodyId) {
-          tr.style.display = "block";
-        } else {
-          tr.style.display = "none";
-        }
-      }
-    }
 
 
 

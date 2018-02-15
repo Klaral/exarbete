@@ -1,13 +1,9 @@
-<!--<p>kjhfgkjhd</p>-->
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <script src="index.js"></script>
-    <!--<script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
@@ -42,7 +38,6 @@
             var monthNames = ["Januari", "Februari", "Mars", "April", "Maj", "Juni", "Juli", "Agusti", "September", "Oktober", "November", "December"];
             var d = new Date();
              document.write( monthNames[d.getMonth()] ); 
-           /*document.write(new Date().getFullYear());*/
         </script> 
         <script>
             var d = new Date();
@@ -50,7 +45,6 @@
         </script> 
     </div>    
        
-       <!--<p>logg</p>-->
        
     </header>  
      
@@ -59,9 +53,6 @@
    <thead>   
     <tr>
        <th> 
-       <!-- <a href="#" class="veckabtn" onclick="toggleVisibility('Menu1');">&#x0003C;</a>
-           <p id="veckatext">ANNAN VECKA</p>
-        <a href="#" class="veckabtn" onclick="toggleVisibility('Menu2');">&#x0003E;</a> -->
        </th>  
        <th>08-11</th> 
        <th>11-14</th> 
@@ -73,110 +64,57 @@
         
    <tbody id="Menu1" >  
     <tr id="toggle1">
-      <td  class="datum">1<p class="dag">MÅNDAG</p></td>
+      <td  class="datum">19<p class="dag">MÅNDAG</p></td>
       <td  onclick="toggleswappa1(this);" class="out"></td> 
       <td  onclick="toggleswappa1(this);" class="out"></td> 
       <td  onclick="toggleswappa1(this);" class="out"></td> 
       <td  onclick="toggleswappa1(this);" class="out"></td>
     </tr>
     <tr id="toggle2">
-      <td class="datum">2<p class="dag">TISDAG</p></td> 
+      <td class="datum">20<p class="dag">TISDAG</p></td> 
       <td onclick="toggleswappa2(this);" class="out"></td> 
       <td onclick="toggleswappa2(this);" class="out"></td> 
       <td onclick="toggleswappa2(this);" class="out"></td> 
       <td onclick="toggleswappa2(this);" class="out"></td>  
     </tr>
     <tr id="toggle3">
-      <td class="datum">3<p class="dag">ONSDAG</p></td> 
+      <td class="datum">21<p class="dag">ONSDAG</p></td> 
       <td onclick="toggleswappa3(this);" class="out"></td> 
       <td onclick="toggleswappa3(this);" class="out"></td> 
       <td onclick="toggleswappa3(this);" class="out"></td> 
       <td onclick="toggleswappa3(this);" class="out"></td> 
     </tr>
     <tr id="toggle4">
-      <td class="datum">4<p class="dag">TORSDAG</p></td>  
+      <td class="datum">22<p class="dag">TORSDAG</p></td>  
       <td onclick="toggleswappa4(this);" class="out"></td> 
       <td onclick="toggleswappa4(this);" class="out"></td> 
       <td onclick="toggleswappa4(this);" class="out"></td> 
       <td onclick="toggleswappa4(this);" class="out"></td>   
     </tr>
     <tr id="toggle5">
-      <td class="datum">5<p class="dag">FREDAG</p></td> 
+      <td class="datum">23<p class="dag">FREDAG</p></td> 
       <td onclick="toggleswappa5(this);" class="out"></td> 
       <td onclick="toggleswappa5(this);" class="out"></td> 
       <td onclick="toggleswappa5(this);" class="out"></td> 
       <td onclick="toggleswappa5(this);" class="out"></td>   
     </tr>
     <tr id="toggle6">
-      <td class="datum">6<p class="dag">LÖRDAG</p></td> 
+      <td class="datum">24<p class="dag">LÖRDAG</p></td> 
       <td onclick="toggleswappa6(this);" class="out"></td> 
       <td onclick="toggleswappa6(this);" class="out"></td> 
       <td onclick="toggleswappa6(this);" class="out"></td> 
       <td onclick="toggleswappa6(this);" class="out"></td>   
     </tr>
     <tr id="toggle7">
-      <td class="datum">7<p class="dag">SÖNDAG</p></td> 
+      <td class="datum">25<p class="dag">SÖNDAG</p></td> 
       <td onclick="toggleswappa7(this);" class="out"></td> 
       <td onclick="toggleswappa7(this);" class="out"></td> 
       <td onclick="toggleswappa7(this);" class="out"></td> 
       <td onclick="toggleswappa7(this);" class="out"></td>    
     </tr>    
    </tbody> 
-   
-  <!-- <tbody id="Menu2" style="display: none;">  
-    <tr id="toggle1">
-      <td class="datum">8<p class="dag">MÅNDAG</p></td>
-      <td  onclick="toggleswappa1(this);" class="out"></td> 
-      <td  onclick="toggleswappa1(this);" class="out"></td> 
-      <td  onclick="toggleswappa1(this);" class="out"></td> 
-      <td  onclick="toggleswappa1(this);" class="out"></td>
-        
-    </tr>     
-    <tr id="toggle2">
-      <td class="datum">9<p class="dag">TISDAG</p></td> 
-      <td onclick="toggleswappa2(this);" class="out"></td> 
-      <td onclick="toggleswappa2(this);" class="out"></td> 
-      <td onclick="toggleswappa2(this);" class="out"></td> 
-      <td onclick="toggleswappa2(this);" class="out"></td>  
-    </tr>
-    <tr id="toggle3">
-      <td class="datum">10<p class="dag">ONSDAG</p></td> 
-      <td onclick="toggleswappa3(this);" class="out"></td> 
-      <td onclick="toggleswappa3(this);" class="out"></td> 
-      <td onclick="toggleswappa3(this);" class="out"></td> 
-      <td onclick="toggleswappa3(this);" class="out"></td> 
-    </tr>
-    <tr id="toggle4">
-      <td class="datum">11<p class="dag">TORSDAG</p></td>  
-      <td onclick="toggleswappa4(this);" class="out"></td> 
-      <td onclick="toggleswappa4(this);" class="out"></td> 
-      <td onclick="toggleswappa4(this);" class="out"></td> 
-      <td onclick="toggleswappa4(this);" class="out"></td>   
-    </tr>
-    <tr id="toggle5">
-      <td class="datum">12<p class="dag">FREDAG</p></td> 
-      <td onclick="toggleswappa5(this);" class="out"></td> 
-      <td onclick="toggleswappa5(this);" class="out"></td> 
-      <td onclick="toggleswappa5(this);" class="out"></td> 
-      <td onclick="toggleswappa5(this);" class="out"></td>   
-    </tr>
-    <tr id="toggle6">
-      <td class="datum">13<p class="dag">LÖRDAG</p></td> 
-      <td onclick="toggleswappa6(this);" class="out"></td> 
-      <td onclick="toggleswappa6(this);" class="out"></td> 
-      <td onclick="toggleswappa6(this);" class="out"></td> 
-      <td onclick="toggleswappa6(this);" class="out"></td>   
-    </tr>
-    <tr id="toggle7">
-      <td class="datum">14<p class="dag">SÖNDAG</p></td> 
-      <td onclick="toggleswappa7(this);" class="out"></td> 
-      <td onclick="toggleswappa7(this);" class="out"></td> 
-      <td onclick="toggleswappa7(this);" class="out"></td> 
-      <td onclick="toggleswappa7(this);" class="out"></td>    
-    </tr>    
-   </tbody>  -->
       
-   </table> 
+ </table> 
      
 </div>
     
